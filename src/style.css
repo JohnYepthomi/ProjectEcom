@@ -1,0 +1,28 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainDark:#232528  ;
+  --mainWhite:#f3f3f3;
+  --mainUellow:#ffa400;
+}
+
+body{
+  font-family: 'Inter', sans-serif!important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark)!important;
+}
+
+.text-title{
+  font-family: lato;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+color: var(--mainBlue);
+
+}
+
+.text-bright{
+color: var(--lightBlue);
+}
